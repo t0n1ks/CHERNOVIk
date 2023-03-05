@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
     .container-lux {
-        width: 1158px;
+        width: 1440px;
     }
     .sec-global {
         display: flex;
@@ -22,7 +22,7 @@
     }
 
     .pick-size{
-        width: none;
+        width: auto;
     }
     
     .control-button{
