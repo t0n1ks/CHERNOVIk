@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    .container-lux {
+        min-width: none;
+        max-width: none;
+        width: 768px;
+        padding-left: 32px;
+    }
+
+    .section-titles{
+        width: 406px;
+        font-size: 60px;
+    }
+    .double-room-button{
+        margin-top: 26px;
+        margin-bottom: 36px;
+    }
+
+    .slider-line{
+        gap: 32px;
+    }
+
+    .pick-size{
+        width: 436px;
+    }
+
+    .control-button{
+        padding-top: 51px;
+        margin-right: 47px;
+    }
+    .section-text{
+        margin-top: -40px;
+    }
+}

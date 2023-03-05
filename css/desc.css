@@ -1,0 +1,39 @@
+@media screen and (min-width: 1200px) {
+    .container-lux {
+        width: 1158px;
+    }
+    .sec-global {
+        display: flex;
+    }
+    
+    .sec-one {
+        padding-top: 169px;
+        margin-right: 112px;
+    }
+
+.section-titles{
+    width: 591px;
+    font-size: 80px;
+}
+    
+    .sec-two {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .pick-size{
+        width: none;
+    }
+    
+    .control-button{
+       padding-top: 27px;
+       margin-left: 20px;
+       justify-content: flex-start;
+    }
+    
+    .section-text{
+      margin-top: -100px;
+      padding-bottom: 48px;
+    }
+
+}

@@ -18,7 +18,8 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/cher.css">
-  <link rel="stylesheet" href="css/cher.css">
+  <link rel="stylesheet" href="css/tab.css">
+  <link rel="stylesheet" href="css/desc.css">
 
 </head>
 
@@ -30,21 +31,89 @@
   <main>
     <!-- Sections DOUBLE LUX ROOM--Nik--->
     <section class="double-room container-lux">
+      <div class="sec-global">
+        <div class="sec-one">
       <h1 class="section-titles">DOUBLE <span class="luxury">LUXURY</span> ROOM</h1>
       <button type="button" class="double-room-button">View prices</button>
-      
+      </div>
+      <div class="sec-two">
       <div class="slider">
         <div class="slider-line">
-          <img src="img/img-r1.jpg" alt="">
-          <img src="img/img-r2.jpg" alt="">
-          <img src="img/img-r3.jpg" alt="">
+          <!------IMG room1------->
+          <picture>
+            <source 
+              srcset="
+            img/img-r1des1x.jpg 1x,
+            img/img-r1des2x.jpg 2x"
+            media="(min-width:1200px)"/>
+            <source
+              srcset="
+              img/img-r1tab1x.jpg 1x,
+              img/img-r1tab2x.jpg 2x"
+            media="(min-width:768px)"/>
+            <source 
+              srcset="
+              img/img-r1mob1x.jpg 1x,
+              img/img-r1mob2x.jpg 2x"
+            media="(min-width:320px)"/>
+          <img src="img/img-r1.jpg" class="pick-size" alt="">
+          </picture>
+
+          <picture>
+            <source 
+              srcset="
+            img/img-r2des1x.jpg 1x,
+            img/img-r2des2x.jpg 2x"
+            media="(min-width:1200px)"/>
+            <source
+              srcset="
+              img/img-r2tab1x.jpg 1x,
+              img/img-r2tab2x.jpg 2x"
+            media="(min-width:768px)"/>
+            <source 
+              srcset="
+              img/img-r2mob1x.jpg 1x,
+              img/img-r2mob2x.jpg 2x"
+            media="(min-width:320px)"/>
+            <img src="img/img-r2.jpg" class="pick-size" alt="">
+          </picture>
+          
+          <picture>
+            <source 
+              srcset="
+            img/img-r3des1x.jpg 1x,
+            img/img-r3des2x.jpg 2x"
+            media="(min-width:1200px)"/>
+            <source
+              srcset="
+              img/img-r3tab1x.jpg 1x,
+              img/img-r3tab2x.jpg 2x"
+            media="(min-width:768px)"/>
+            <source 
+              srcset="
+              img/img-r3mob1x.jpg 1x,
+              img/img-r3mob2x.jpg 2x"
+            media="(min-width:320px)"/>
+            <img src="img/img-r3.jpg" class="pick-size" alt="">
+          </picture> 
+        
         </div>
       </div>
       <div class="control-button">
-      <button type="button" class="slider-prev" >Prev</button>
-      <button type="button" class="slider-next" >Next</button>
+      <button type="button" class="slider-prev" width="7" height="14">
+        <svg class="controls-buttons">
+          <use href="./img/sprite-svg.svg#icon-button-prev"></use>
+        </svg>
+      </button>
+      <button type="button" class="slider-next">
+        <svg class="controls-buttons">
+          <use href="./img/sprite-svg.svg#icon-button-next"></use>
+        </svg>
+      </button>
         </div>
-
+      </div>
+    </div>
+    </div>
       <p class="section-text">The Mimino hotel features spacious and stylish double luxury rooms with modern amenities for a comfortable stay.</p>
     </section>
     <!-- ---------END-------NIK------>
